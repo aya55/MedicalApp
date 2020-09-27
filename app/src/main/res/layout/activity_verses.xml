@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".VersesActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/title"
+            android:text="تصحيح المفاهيم المغلوطة‏"
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:id="@+id/ques1"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="هل يمكن ارتداء الكمامة أثناء ممارسة الرياضة؟"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans1"
+            android:layout_below="@+id/ques1"
+            android:layout_margin="10dp"
+            android:text="ينبغي عدم ارتداء الكمامة أثناء ممارسة الرياضة لأن ‏الكمامة قد تحدّ من القدرة على التنفس بصورة مريحة. وقد تبتل الكمامة بسبب العرق مما يصعب التنفس ويعزز ‏نمو المكروبات. وأهم تدبير وقائي أثناء ممارسة الرياضة هو التباعد ‏الجسدي مسافة متر واحد على الأقل من الآخرين.‏"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans1"
+            android:id="@+id/ques2"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="مرض فيروس كورونا يسببه فيروس وليس بكتيريا"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans2"
+            android:layout_below="@+id/ques2"
+            android:layout_margin="10dp"
+            android:text=" الفيروس الذي يسبب مرض كورونا ينحدر من سلالة فيروسات تُسمى الكورونا أو الفيروسات التاجية. والمضادات الحيوية لا تأثير لها على الفيروسات."
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans2"
+            android:id="@+id/ques3"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="هل يمكن أن ينتشر فيروس كوفيد-19 بواسطة الأحذية؟"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans3"
+            android:layout_below="@+id/ques3"
+            android:layout_margin="10dp"
+            android:text="إن احتمالية انتقال عدوى كورونا بواسطة الأحذية إلى الأفراد ضعيفة جداً. وكإجراء احترازي، خصوصاً في المنازل التي يوجد فيها رضّع وأطفال صغار يحبون أو يلعبون على الأرض، فكّر في خلع الأحذية وتركها عند مدخل المنزل. سيساعد ذلك في منع إدخال أي قذارة أو مخلفات قد تكون ملتصقة بالنعل والأحذية إلى المنزل."
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans3"
+            android:id="@+id/ques4"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="لا توجد حاليا أدوية مرخصة لعلاج مرض كورونا ‏أو الوقاية منه  ‏"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans4"
+            android:layout_below="@+id/ques4"
+            android:layout_margin="10dp"
+            android:text="في حين أن العديد من الأدوية قيد التجارب حالياً فلا يوجد ‏حاليا أي دليل على أن هيدروكسي كلوروكين أو أي دواء آخر ‏من شأنه معالجة كورونا أو الوقاية منه.‏"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans4"
+            android:id="@+id/ques5"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="كوفيد-19 لا ينتقل عن طريق الذباب المنزلي"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans5"
+            android:layout_below="@+id/ques5"
+            android:layout_margin="10dp"
+            android:text="لا يوجد حتى الآن دليل أو معلومات تشير إلى أن فيروس كورونا ينتقل عن طريق الذباب المنزلي. ينتشر الفيروس الذي يسبب مرض كورونا بشكل رئيسي عن طريق القطرات التي تنبعث من الشخص المصاب عندما يسعل أو يعطس أو يتحدث. كما يمكن أن تصاب بالعدوى إذا لمست سطحاً ملوثاً ثم لمست عينيك أو أنفك أو فمك قبل غسل يديك. لحماية نفسك، احرص على الحفاظ على مسافة لا تقل عن متر واحد عن الآخرين، وتعقيم الأسطح التي يكثر لمسها. نظِّف يديك جيداً ومراراً وتجنب لمس عينيك وفمك وأنفك."
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans5"
+            android:id="@+id/ques6"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="الماسحات الضوئية الحرارية لا يمكنها اكتشاف فيروس كورونا"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans6"
+            android:layout_below="@+id/ques6"
+            android:layout_margin="10dp"
+            android:text="الماسحات الحرارية فعالة في اكتشاف الأشخاص الذين يعانون من الحمى أي ترتفع درجة حرارة جسمهم عن المعدل الطبيعي، ولكن لا يمكنها اكتشاف الأشخاص المصابين بفيروس كورونا."
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans6"
+            android:id="@+id/ques7"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="يمكن أن ينتقل فيروس مرض كورونا في المناطق التي يكون المناخ فيها حارا ‏ورطبا"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans7"
+            android:layout_below="@+id/ques7"
+            android:layout_margin="10dp"
+            android:text="من خلال البيّنات المتوافرة لحد الآن، يمكن انتقال فيروس مرض كورونا في ‏جميع المناطق، بما فيها المناطق ذات الطقس الحار والرطب. وكيفما كان ‏المناخ، اتخذ التدابير الوقائية إذا كنت تعيش في منطقة أُبلغ فيها عن حالات ‏عدوى كورونا أو تنوي السفر إليها. ولعل أفضل طريقة لحماية نفسك من ‏الإصابة بمرض كورونا هي المواظبة على غسل يديك. فبواسطة ذلك، يمكنك ‏التخلص من الفيروسات التي قد تكون عالقة بيديك وتتجنب بالتالي العدوى ‏المحتمل حدوثها إذا لمست عينيك أو فمك أو أنفك.‏"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans7"
+            android:id="@+id/ques8"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="هل تقضي مصابيح التعقيم بالأشعة فوق البنفسجية على فيروس كورونا الجديد؟"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans8"
+            android:layout_below="@+id/ques8"
+            android:layout_margin="10dp"
+            android:text="ينبغي عدم استخدام مصابيح الأشعة فوق البنفسجية لتعقيم اليدين أو أي أجزاء أخرى من الجلد لأن هذه الأشعة يمكن أن تسبب حساسية للجلد."
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+
+
+
+    </RelativeLayout>
+</ScrollView>

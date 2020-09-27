@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:padding="10dp"
+    tools:context=".quesm6Activity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose what do you feel"
+        android:id="@+id/check"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:fontFamily="casual"
+        android:textSize="30dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/box1"
+        android:layout_below="@+id/check"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:text="الرؤوس البيضاء"
+        android:layout_marginTop="20dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/box2"
+        android:layout_below="@+id/box1"
+        android:layout_marginLeft="20dp"
+        android:text="الرؤوس السوداء"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/box3"
+        android:layout_below="@+id/box2"
+        android:layout_marginLeft="20dp"
+        android:text="بثرات"
+        android:layout_marginTop="20dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/box4"
+        android:textStyle="bold"
+        android:layout_below="@+id/box3"
+        android:layout_marginLeft="20dp"
+        android:text="حكة"
+        android:layout_marginTop="20dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/box9"
+        android:layout_below="@+id/box4"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:text="احمرار الجلد"
+        android:layout_marginTop="20dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/box10"
+        android:layout_below="@+id/box9"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:text="جلد جاف ومتقشر"
+        android:layout_marginTop="20dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/box5"
+        android:layout_below="@id/check"
+        android:layout_toRightOf="@+id/box1"
+        android:textStyle="bold"
+        android:layout_marginLeft="45dp"
+        android:text="خدش طويل الأمد"
+        android:layout_marginTop="20dp"/>
+
+    <CheckBox
+        android:id="@+id/box6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box5"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20sp"
+        android:layout_toRightOf="@+id/box2"
+        android:text="تكوين بثور صغيرة مملوءة بالسوائل" />
+
+    <CheckBox
+        android:id="@+id/box7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box6"
+        android:textStyle="bold"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/box3"
+        android:text="تورم المفاصل" />
+    <CheckBox
+        android:id="@+id/box8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box7"
+        android:layout_marginLeft="97dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/box4"
+        android:text="أظافر سميكة" />
+    <CheckBox
+        android:id="@+id/box11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box8"
+        android:layout_marginLeft="97dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/box4"
+        android:text="بقع قشرية صغيرة" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_buttom"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_below="@+id/box10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/custom_buttom"
+        android:fontFamily="casual"
+        android:textColor="#FFF"
+        android:text=" Result will be her....."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+</RelativeLayout>

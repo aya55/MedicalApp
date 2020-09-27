@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background2"
+    tools:context=".quesm3Activity2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose what do you feel"
+        android:id="@+id/check"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:fontFamily="casual"
+        android:textSize="30dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check"
+        android:layout_marginTop="20dp"
+        >
+
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box1"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:text="ألم الفك"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box2"
+            android:layout_below="@+id/box1"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:text="غثيان"
+            android:layout_marginTop="20dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box3"
+            android:layout_below="@+id/box2"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="20dp"
+            android:text="ألم الذراع"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box4"
+            android:layout_below="@+id/box3"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:text="صداع"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box9"
+            android:layout_below="@+id/box4"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:text="نزيف في الأنف"
+            android:layout_marginTop="20dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box5"
+            android:layout_marginRight="60dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:text="ضيق في التنفس"
+            android:layout_marginTop="20dp"/>
+
+        <CheckBox
+            android:id="@+id/box6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@id/box5"
+            android:layout_marginRight="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20sp"
+            android:text="حرقة المعدة" />
+
+        <CheckBox
+            android:id="@+id/box7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/box6"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="75dp"
+            android:text="​ألم في الساق" />
+        <CheckBox
+            android:id="@+id/box8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/box7"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="75dp"
+            android:text="احمرار الساق" />
+        <CheckBox
+            android:id="@+id/box11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@id/box8"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="115dp"
+            android:text="تورم" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:layout_below="@+id/box9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/custom_buttom"
+        android:fontFamily="casual"
+        android:textColor="#FFF"
+        android:text=" Result will be her....."
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>

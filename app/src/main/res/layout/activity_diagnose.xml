@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".diagnose">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose what do you feel"
+            android:id="@+id/check"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FDFAFA"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check"
+            android:text="حمي"
+            android:id="@+id/homa"
+            android:textSize="30sp"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/homa"
+            android:layout_marginTop="20dp"
+            android:id="@+id/group1"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نعم"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احيانا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="قليلا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group1"
+            android:text="سعال"
+            android:id="@+id/soaal"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/soaal"
+            android:id="@+id/group2"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نعم"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احيانا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="قليلا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group2"
+            android:text="اوجاع والآم"
+            android:id="@+id/alm"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alm"
+            android:id="@+id/group3"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نعم"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احيانا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="قليلا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group3"
+            android:text="إلتهاب الحلق"
+            android:id="@+id/halq"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/halq"
+            android:id="@+id/group4"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نعم"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احيانا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="قليلا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group4"
+            android:text="صداع"
+            android:id="@+id/sdaa"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sdaa"
+            android:id="@+id/group5"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نعم"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احيانا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="قليلا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group5"
+            android:text="إجهاد عام"
+            android:id="@+id/eghad"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eghad"
+            android:id="@+id/group6"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نعم"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احيانا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="قليلا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group6"
+            android:text="عطس"
+            android:id="@+id/ats"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ats"
+            android:id="@+id/group7"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نعم"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احيانا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="قليلا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+        </RadioGroup>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group7"
+            android:text="سيلان الأنف"
+            android:id="@+id/anf"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/anf"
+            android:id="@+id/group8"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نعم"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احيانا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="قليلا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group8"
+            android:text="إسهال"
+            android:id="@+id/eshal"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eshal"
+            android:id="@+id/group9"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نعم"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احيانا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="قليلا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group9"
+            android:text="صعوبة في التنفس"
+            android:id="@+id/tnfs"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tnfs"
+            android:id="@+id/group10"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نعم"
+                android:layout_marginLeft="20dp"
+                android:textSize="30sp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احيانا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="قليلا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لا"
+                android:textSize="30sp"
+                android:layout_marginLeft="15dp"
+
+                />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Diagnose"
+            android:id="@+id/diagnose"
+            android:background="@drawable/custom_buttom"
+            android:layout_below="@+id/group10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

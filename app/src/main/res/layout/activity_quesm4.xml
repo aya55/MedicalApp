@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:padding="10dp"
+    tools:context=".quesm4Activity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose what do you feel"
+        android:id="@+id/check"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:fontFamily="casual"
+        android:textSize="30dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check"
+        android:layout_marginTop="20dp"
+        >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box1"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:text="مشاكل في التنفس"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box2"
+            android:textStyle="bold"
+            android:layout_below="@+id/box1"
+            android:layout_marginLeft="20dp"
+            android:text="حكة في العيون"
+            android:layout_marginTop="20dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box3"
+            android:layout_below="@+id/box2"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:text="عيون حمراء ومنتفخة"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box4"
+            android:layout_below="@+id/box3"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+
+            android:text="السعال"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box9"
+            android:textStyle="bold"
+
+            android:layout_below="@+id/box4"
+            android:layout_marginLeft="20dp"
+            android:text="سيلان الانف"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:id="@+id/box10"
+            android:layout_below="@+id/box9"
+            android:layout_marginLeft="20dp"
+            android:text="الطفح الجلدي"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box5"
+            android:layout_toRightOf="@+id/box1"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="70dp"
+            android:text="حمى"
+            android:layout_marginTop="20dp"/>
+
+        <CheckBox
+            android:id="@+id/box6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:layout_below="@id/box5"
+            android:layout_marginLeft="86dp"
+            android:layout_marginTop="20sp"
+            android:layout_toRightOf="@+id/box2"
+            android:text="صداع" />
+
+        <CheckBox
+            android:id="@+id/box7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/box6"
+            android:layout_marginLeft="57dp"
+            android:textStyle="bold"
+
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/box3"
+            android:text="العطس" />
+        <CheckBox
+            android:id="@+id/box8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/box7"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/box4"
+            android:text="إلتهاب الحلق" />
+        <CheckBox
+            android:id="@+id/box11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/box8"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/box4"
+            android:text="ألم في الأذن" />
+        <CheckBox
+            android:id="@+id/box12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/box9"
+            android:layout_marginLeft="130dp"
+            android:textStyle="bold"
+
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/box4"
+            android:text="إفرازات من الأذن" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:layout_below="@+id/box12"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/custom_buttom"
+        android:fontFamily="casual"
+        android:textColor="#FFF"
+        android:text=" Result will be her....."
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background2"
+    tools:context=".quesm2Activity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose what do you feel"
+        android:id="@+id/check"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:fontFamily="casual"
+        android:textSize="30dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check"
+        android:layout_marginTop="20dp"
+
+        >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box1"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="20dp"
+            android:text="ضيق في التنفس"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box2"
+            android:textStyle="bold"
+
+            android:layout_below="@+id/box1"
+            android:layout_marginLeft="20dp"
+            android:text="صفير عند الزفير"
+            android:layout_marginTop="20dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/box3"
+            android:layout_below="@+id/box2"
+            android:layout_marginLeft="20dp"
+            android:text="اضطراب النوم"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box4"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+
+            android:layout_marginRight="95dp"
+            android:text="السعال"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box9"
+            android:layout_below="@+id/box4"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="20dp"
+            android:text="السعال المزمن"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/box10"
+            android:layout_below="@+id/box9"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="100dp"
+            android:text="الإعياء"
+            android:layout_marginTop="20dp"/>
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:text="Submit"
+            android:fontFamily="casual"
+            android:id="@+id/submit"
+            android:layout_below="@+id/box10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/custom_buttom"
+        android:fontFamily="casual"
+        android:textColor="#FFF"
+        android:text=" Result will be her....."
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>

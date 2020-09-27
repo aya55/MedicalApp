@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".faqsActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/title"
+            android:text="سؤال وجواب"
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:id="@+id/ques1"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="ما هو فيروس كورونا؟"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans1"
+            android:layout_below="@+id/ques1"
+            android:layout_margin="10dp"
+            android:text="فيروسات كورونا هي سلالة واسعة من الفيروسات التي قد تسبب المرض للحيوان والإنسان. ومن المعروف أن عدداً من فيروسات كورونا تسبب لدى البشر أمراض تنفسية تتراوح حدتها من نزلات البرد الشائعة إلى الأمراض الأشد وخامة مثل متلازمة الشرق الأوسط التنفسية ميرس والمتلازمة التنفسية الحادة الوخيمة سارس. ويسبب فيروس كورونا المُكتشف مؤخراً مرض كورونا"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans1"
+            android:id="@+id/ques2"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="ما هو مرض كوفيد-19؟"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans2"
+            android:layout_below="@+id/ques2"
+            android:layout_margin="10dp"
+            android:text="مرض كوفيد-19 هو مرض معد يسببه آخر فيروس تم اكتشافه من سلالة فيروسات كورونا. ولم يكن هناك أي علم بوجود هذا الفيروس الجديد ومرضه قبل بدء تفشيه في مدينة ووهان الصينية . وقد تحوّل الآن إلى جائحة تؤثر على العديد من بلدان العالم."
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans2"
+            android:id="@+id/ques3"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="كيف ينتشر مرض كوفيد-19؟"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans3"
+            android:layout_below="@+id/ques3"
+            android:layout_margin="10dp"
+            android:text="يمكن أن يلقط الأشخاص عدوى كوفيد من أشخاص آخرين مصابين بالفيروس. وينتشر المرض بشكل أساسي من شخص إلى شخص عن طريق القُطيرات الصغيرة التي يفرزها الشخص المصاب كوفيد من أنفه أو فمه عندما يسعل أو يعطس أو يتكلم. وهذه القطيرات وزنها ثقيل نسبياً، فهي لا تنتقل إلى مكان بعيد وإنما تسقط سريعاً على الأرض. ويمكن أن يلقط الأشخاص مرض كوفيد إذا تنفسوا هذه القُطيرات من شخص مصاب بعدوى الفيروس. لذلك من المهم الحفاظ على مسافة متر واحد على الأقل ثلاث أقدام من الآخرين. وقد تحط هذه القطيرات على الأشياء والأسطح المحيطة بالشخص، مثل الطاولات ومقابض الأبواب ودرابزين السلالم. ويمكن حينها أن يصاب الناس بالعدوى عند ملامستهم هذه الأشياء أو الأسطح ثم لمس أعينهم أو أنفهم أو فمهم. لذلك من المهم غسل المواظبة على غسل اليدين بالماء والصابون أو تنظيفهما بمطهر كحولي لفرك اليدين."
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans3"
+            android:id="@+id/ques4"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="كيف يمكن لنا حماية الآخرين وحماية أنفسنا من العدوى إذا لم نكن نعلم من مصاب بها؟"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans4"
+            android:layout_below="@+id/ques4"
+            android:layout_margin="10dp"
+            android:text="حافظ على مسافة متر واحد على الأقل بينك وبين الآخرين عند الإمكان. وهي مسألة مهمة بشكل خاص إذا كنت تقف قرب شخص يسعل أو يعطس. وبما أن بعض الأشخاص المصابين بالعدوى قد لا تظهر عليهم الأعراض بعد أو لديهم أعراض خفيفة فقط، فإن الحفاظ على مسافة متباعدة عن الجميع هو فكرة جيدة إذا كنت في منطقة يسري فيها مرض كوفيد 19."
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans4"
+            android:id="@+id/ques5"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="ما الذي يعنيه العزل الذاتي؟"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans5"
+            android:layout_below="@+id/ques5"
+            android:layout_margin="10dp"
+            android:text="المقصود بالعزل الذاتي هو عندما يلزم الشخص المصاب بالحمى أو السعال أو غير ذلك من أعراض مرض كورونا، بيته ويمتنع عن الذهاب إلى العمل أو المدرسة أو الأماكن العامة. وهذا العزل يمكن أن يحدث بشكل طوعي أو يستند إلى توصية من مقدم الرعاية الصحية. ولكن إذا كنت تعيش في منطقة تنتشر فيها الملاريا أو حمى الضنك، فمن الضروري ألا تتجاهل أعراض الحمى. اطلب المساعدة الطبية. وعندما تتوجه إلى مرفق الرعاية الصحية ضع كمامة إن أمكن، وحافظ على مسافة متر واحد على الأقل بينك وبين الآخرين وتجنب لمس الأسطح المحيطة بيديك. وإذا كان المريض طفلاً، فساعده على الالتزام بهذه النصائح."
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans5"
+            android:id="@+id/ques6"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="هل يمكن أن يُصاب الأطفال والمراهقون بمرض كوفيد-19؟"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans6"
+            android:layout_below="@+id/ques6"
+            android:layout_margin="10dp"
+            android:text="تشير البحوث إلى أن احتمالات إصابة الأطفال والمراهقين بعدوى كورونا وإمكانية نشرهم للعدوى لا تختلف عن الفئات العمرية الأخرى.
+
+وتشير الأدلة المتاحة حتى اليوم إلى أن الأطفال واليافعين أقل عرضة للإصابة بمضاعفات المرض الوخيمة، ولكن لا يزال حدوث ذلك ممكناً وسط هذه الفئة العمرية.
+
+وينبغي أن يتبع الأطفال والمراهقون نفس الإرشادات عن الحجر الصحي الذاتي والعزل الذاتي إذا تعرضوا لخطر الإصابة بالعدوى أو إذا ظهرت عليهم أعراضها. ومن المهم بشكل خاص أن يتجنب الأطفال مخالطة كبار السن والآخرين الأكثر عرضة للإصابة بمضاعفات المرض الوخيمة. "
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ans6"
+            android:id="@+id/ques7"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="كيف أتجنب الإصابة بعدوى فيروس كورونا عندما أحيي الآخرين؟ ‏"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttom"
+            android:id="@+id/ans7"
+            android:layout_below="@+id/ques7"
+            android:layout_margin="10dp"
+            android:text="للوقاية من كورونا، تفادى أي ملامسة جسدية عندما ‏تحيي الآخرين. وتشمل التحيات المأمونة التلويح والإيماء ‏والانحناء"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
+
+
+
+    </RelativeLayout>
+</ScrollView>
